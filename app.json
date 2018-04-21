@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/login",
+    "pages/invoice/invoice",
+    "pages/apply/apply",
+    "pages/service/service",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#349BFF",
+    "navigationBarTitleText": "励步英语",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/static/shouye.jpg",
+        "selectedIconPath": "/static/shouye2.jpg"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "text": "分类",
+        "iconPath": "/static/fenlei.jpg",
+        "selectedIconPath": "/static/fenlei1.jpg"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/static/wode.jpg",
+        "selectedIconPath": "/static/wode1.png"
+      }
+    ]
+  }
+}

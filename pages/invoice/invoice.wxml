@@ -1,0 +1,21 @@
+<!--pages/invoice/invoice.wxml-->
+<view class='invoice'>
+  <image class="img1" src="../../../static/invoice2.png" />
+   <view class='invoice-body'>
+    <view class='invoice-tit'>
+      <icon  class='iconfont icon-wodedingdan'></icon>
+      <text>增值税电子普通发票</text>
+    </view>
+    <view class='invoice-cont'>
+        <view><text>付款方</text><text>张静涵</text></view>
+        <view><text>收款方</text><text>朝阳励步教育有限公司</text></view>
+        <view class='line'><text>发票金额</text><text>￥27572.00</text></view>
+        <view><text>开票时间</text><text>2018-01-01 12:00</text></view>
+        <view><text>项目</text><text>教育培训</text></view>
+    </view>
+  </view>
+  <view class='footer'>
+    <button type='button'>下载发票PDF<icon  class='iconfont icon-cart'></icon></button>
+    <button type='button'>发送到邮箱<icon  class='iconfont icon-classify'></icon></button>
+  </view> 
+</view>

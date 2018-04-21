@@ -1,0 +1,41 @@
+<!--pages/apply/apply.wxml-->
+<view class='apply'>
+  <view class='header'>
+    <view class='top'>
+      <span>发票金额</span>
+      <span>￥27572.00</span>
+    </view>
+    <view class='bot'>
+      <span>优惠券支付部分不可开发票</span>
+      <span>以实付金额为准</span>
+    </view>
+  </view>
+  <view class='main-item'>
+    <view class='tit'>
+      <span>抬头类型</span>
+      <em>个人</em>
+    </view>
+    <view class='center'>
+      其他发票需求请联系校区前台
+    </view>
+    <view class='boo'>
+      <span>类型</span>
+      <input type='text' value='请输入发票人姓名' />
+    </view>
+  </view>
+  <view class='main-item'>
+    <view class='tit'>
+      <span>开票方式</span>
+    </view>
+    <view class='center'>
+      申请后，发票将自动发送到您的微信
+    </view>
+    <view class='boo'>
+      <span>邮箱</span>
+      <input type='text' placeholder='可不填,填写后可发送至您的邮箱' />
+    </view>
+  </view>
+  <view class='footer'>
+    <button type='button'>提交</button>
+  </view>
+</view>

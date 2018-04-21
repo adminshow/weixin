@@ -1,0 +1,24 @@
+<!--pages/login/login.wxml-->
+<view class="login">
+  <view class="flex-wrp">
+    <view class="flex-item">
+      <image src="/static/login.png" />
+    </view>
+    <view class="flex-item">
+      <icon class='iconfont icon-daifukuan'></icon>
+      <input type='text' placeholder='请输入手机号' />
+    </view>
+    <view class="flex-item">
+      <icon class='iconfont icon-dianpu'></icon>
+      <input type='text' placeholder='请输入验证码' />
+      <span>获取验证码</span>
+    </view>
+    <view class="flex-item">
+      <button bindtap='change'>立即登录</button>
+    </view>
+    <view class="flex-item">
+      <i>点击登录即代表同意</i>
+      <i class='flex-item-i'>《励步服务中心协议》</i>
+    </view>
+  </view>
+</view>
